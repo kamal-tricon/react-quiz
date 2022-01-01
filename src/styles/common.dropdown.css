@@ -1,0 +1,27 @@
+.dropdown-container{
+    max-height: 260px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: solid 1px #ea2150;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    position: absolute;
+    min-width: 270px;
+    margin-top: -3px;
+}
+
+.single-dropdown-item{
+    height: 36px;
+    padding-left: 18px;
+    padding-top: 10px;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    max-width: 250px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* white-space: nowrap; */
+}
+
+.single-dropdown-item:hover {
+    background-color: #c4a6a6;
+}

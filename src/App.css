@@ -7,6 +7,38 @@
   pointer-events: none;
 }
 
+.product-list-container{
+  display: inline-block;
+  max-width: 75%;
+}
+
+.single-product{
+  padding: 30px;
+  background-color: rgb(227, 245, 191);
+  margin: 30px;
+  border-radius: 6px;
+  display: inline-block;
+  width: 200px;
+}
+
+.product-name{
+    margin: 2px 15px 2px 15px;
+    /* display: inline-block; */
+}
+.add-button{
+  padding: 8px 12px 10px 12px;
+  background-color: #ea2150;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.add-train-container{
+  width: 350px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
